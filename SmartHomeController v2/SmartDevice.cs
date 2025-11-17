@@ -9,6 +9,7 @@ namespace SmartHomeController
 {
     public class SmartDevice
     {
+
         // Private fields
         private int deviceId;
         private string deviceName;
@@ -32,6 +33,7 @@ namespace SmartHomeController
             get { return status; }
             set { status = value; }
         }
+
 
         public SmartDevice(int deviceID, string deviceName)
         {
